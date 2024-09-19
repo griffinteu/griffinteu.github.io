@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc; 
+    font-family: sans-serif;
+}
+
+header, nav, section, footer, #wrap {
+    background-color: white;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: rebeccapurple;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a { 
+    color: White;
+    font-size: 175%;
+    text-decoration: none;
+    padding: 21px;
+}
+
+nav a:hover {
+    background-color:black;
+    color:rebeccapurple;
+}
+
+section {
+    padding: 20px 40px;
+    overflow: auto;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.pic {
+    width: 25%;
+    float:right;
+    margin: 0 0 20px 20px;
+}
+
+
+.pic2 {
+    width: 30%;
+    float:left;
+    margin: 0 20px 20px 0px;
+}
+
+.button {
+    background-color: rebeccapurple;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+a.button:hover {
+    background-color: black;
+    color: blueviolet;
+}
