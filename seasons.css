@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+    
+}
+
+body#spring {
+    background-color: lightgreen;
+}
+
+body#fall {
+    background-color: darkorange;
+}
+
+body#summer {
+    background-color: cyan;
+}
+
+body#winter {
+    background-color: darkgreen;
+}
+
+body#seasons {
+    background-color: black;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+#spring header, #spring footer {
+    background-color: lightpink;
+}
+
+#fall header, #fall footer {
+    background-color: saddlebrown;
+}
+
+#summer header, #summer footer {
+    background-color: pink;
+}
+
+#winter header, #winter footer {
+    background-color: darkred;
+}
+
+#seasons header, #seasons footer {
+    background-color: blue;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    
+}
+
+#fall nav {
+    background-color: yellow;
+}
+
+#spring nav {
+    background-color: darkgreen;
+}
+
+#summer nav {
+    background-color: yellow;
+}
+
+#winter nav {
+    background-color: red;
+}
+
+#seasons nav {
+    background-color: teal;
+}
+
+nav a:hover {
+    background-color: #900;
+}
+
+#fall nav a:hover {
+    background-color: orange;
+}
+
+#spring nav a:hover {
+    background-color: pink;
+}
+
+#summer nav a:hover {
+    background-color: pink;
+}
+
+#winter nav a:hover {
+    background-color: darkred;
+}
+
+#seasons nav a:hover {
+    background-color: cornflowerblue;
+}
+
+#spring section img {
+    text-align: center;
+    overflow: auto;
+}
+
+#spring section {
+    text-align: center;
+    overflow: auto;
+    background-color: mediumseagreen;
+}
+
+#summer section {
+    text-align: center;
+    overflow: auto;
+    background-color: lightblue;
+}
+
+#fall section {
+    text-align: center;
+    overflow: auto;
+    background-color: lightyellow;
+}
+
+#winter section {
+    text-align: center;
+    overflow: auto;
+    background-color: lightgreen;
+}
+
+#seasons section {
+    text-align: center;
+    overflow: auto;
+    background-color: deepskyblue;
+}
