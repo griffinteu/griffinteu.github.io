@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slideshow</title>
+    <link href="slideshow.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+    
+    <header>My Slideshow</header>
+          <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />  
+        
+    <nav></nav>
+        
+    <section>
+       <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                
+                <img src="images/shaka.jpg" data-thumb="images/shaka.jpg" alt="" />
+                
+                <a href="http://espn.com"><img src="images/taketheL.jpg" data-thumb="images/taketheL.jpg" alt="" title="Take the L" /></a>
+               
+                <img src="images/passion.jpg" data-thumb="images/passion.jpg" alt="" data-transition="slideInLeft" />
+                
+                <img src="images/meditation.jpg" data-thumb="images/meditation.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is Griezmann <em></em><a href="#">meditating</a>. 
+            </div>
+        </div>
+        
+        
+    </section>
+        
+    <footer></footer>
+    
+    </div>
+    
+        <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+
+
+</html>
